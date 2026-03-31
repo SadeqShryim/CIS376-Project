@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import AudioUploadTest from './components/AudioUploadTest'
 import './App.css'
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+
+      <AudioUploadTest />
 
       <section id="next-steps">
         <div id="docs">
